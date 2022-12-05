@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather App</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div class="card">
+    <div class="search">
+      <input class="search-bar" type="text" placeholder="Search" autocomplete="off">
+      <button class="buttonsearch" type="submit" name="button">
+        <img src="images/loupe.png" alt="" width="10px">
+      </button>
+    </div>
+    <div class="weather loading">
+      <div class="city">
+        <h2> Weather in Varanasi</h2>
+      </div>
+      <div class="temp">
+        <h1>12° C.</h1>
+      </div>
+      <div class="flex">
+        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+        <div class="description">Cloudy</div>
+      </div>
+      <div class="description">
+        <h4>Clear</h4>
+      </div>
+      <div class="humidity">
+        <h4>Humidity: 45%</h4>
+      </div>
+      <div class="wind">
+        <h4>WindSpeed: xkm/h.</h4>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
